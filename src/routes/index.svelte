@@ -39,7 +39,8 @@
 	From James Quick's <a
 		class="hover:underline font-bold text-red-400 hover:text-red-600"
 		rel="external"
-		href="https://youtu.be/UU7MgYIbtAk">YouTube SvelteKit Crash Course</a
+		href="https://youtu.be/UU7MgYIbtAk"
+		target="_blank">YouTube SvelteKit Crash Course</a
 	> ~ Thank you!
 </h2>
 <!-- below is example of 2 way binding aka: Two-way data binding refers to the ability to bind changes to an object's properties to changes in the UI and vice versa, -->
