@@ -43,6 +43,17 @@
 		target="_blank">YouTube SvelteKit Crash Course</a
 	> ~ Thank you!
 </h2>
+<div class="flex justify-center my-8">
+	<iframe
+		width="50%"
+		style="aspect-ratio:16/9;"
+		src="https://www.youtube.com/embed/UU7MgYIbtAk"
+		title="YouTube video player"
+		frameborder="0"
+		allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+		allowfullscreen
+	/>
+</div>
 <!-- below is example of 2 way binding aka: Two-way data binding refers to the ability to bind changes to an object's properties to changes in the UI and vice versa, -->
 <input
 	class="w-full rounded-md text-lg p-4 border-2 border-gray-200"
