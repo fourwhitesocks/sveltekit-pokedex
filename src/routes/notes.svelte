@@ -3,7 +3,7 @@
 </svelte:head>
 
 <h1 class="text-4xl text-center my-8 uppercase">Class Notes</h1>
-<ul class="list-disc">
+<ul class="list-disc p-10 max-w6xl mx-auto ">
 	<li class="mb-2">
 		At beginning of class he was using Svetle Stores, later he changed that, svelte stores are 14:57
 		in
@@ -29,3 +29,13 @@
 		will be loaded on the index page before it needs it, but this code isnt' like that
 	</li>
 </ul>
+
+<section>
+	<h2>Image block</h2>
+	<div class="py-40 px-4 grid grid-flow-col grid-cols-3 gap-4 bg-blue-200">
+		<img src="https://source.unsplash.com/800x600/?nature,water" alt="random unsplash" />
+
+		<img src="/guinea-pig-2400.jpg" width="" alt="guinea pic cutie" />
+		<img src="https://source.unsplash.com/LEWbO3MqUsM" alt="owl big eyes" />
+	</div>
+</section>

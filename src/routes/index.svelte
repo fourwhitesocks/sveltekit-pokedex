@@ -54,17 +54,20 @@
 		allowfullscreen
 	/>
 </div>
-<!-- below is example of 2 way binding aka: Two-way data binding refers to the ability to bind changes to an object's properties to changes in the UI and vice versa, -->
-<input
-	class="w-full rounded-md text-lg p-4 border-2 border-gray-200"
-	bind:value={searchTerm}
-	placeholder="Search Pokemon"
-/>
-<div class="py-4 grid gap-4 md:grid-cols-2 grid-cols-1">
-	<!-- so below instead of coming from the stores it's iterating from the filteredPokemon -->
-	{#each filteredPokemon as pokeman}
-		<!-- my svelte extension chaged this to how it looks below below from how he made it which is <PokemanCard pokeman={pokeman}/>  -->
-		<!-- here below we are receiving the PokemanCard compoonent and passing in pokeman to that component-->
-		<PokemanCard {pokeman} />
-	{/each}
-</div>
+
+<section class="p-10 max-w6xl mx-auto">
+	<!-- below is example of 2 way binding aka: Two-way data binding refers to the ability to bind changes to an object's properties to changes in the UI and vice versa, -->
+	<input
+		class="w-full rounded-md text-lg p-4 border-2 border-gray-200"
+		bind:value={searchTerm}
+		placeholder="Search Pokemon"
+	/>
+	<div class="py-4 grid gap-4 md:grid-cols-2 grid-cols-1">
+		<!-- so below instead of coming from the stores it's iterating from the filteredPokemon -->
+		{#each filteredPokemon as pokeman}
+			<!-- my svelte extension chaged this to how it looks below below from how he made it which is <PokemanCard pokeman={pokeman}/>  -->
+			<!-- here below we are receiving the PokemanCard compoonent and passing in pokeman to that component-->
+			<PokemanCard {pokeman} />
+		{/each}
+	</div>
+</section>

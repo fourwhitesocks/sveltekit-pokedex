@@ -1,6 +1,7 @@
 <!--see how it's in order the nav is before the slot or pg components-->
 <script>
 	import Nav from '../components/nav.svelte';
+	import Footer from '../components/footer.svelte';
 </script>
 
 <!--** what ever you add in here will go onto every page
@@ -10,8 +11,12 @@
 <div class="p-10 max-w6xl mx-auto">
 	<!-- also see another way to import the nav into the index by using import Nav; this might be better see other way 11:53 mins in video-->
 	<Nav />
-	<slot />
 </div>
+<main>
+	<slot />
+</main>
+
+<Footer />
 
 <style>
 	@tailwind base;
